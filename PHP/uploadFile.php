@@ -10,7 +10,7 @@
     <div class="container">
         <h1>Upload a File</h1>
 
-        <form method="post" enctype="multipart/form-data">
+        <form action="<?php echo $_SERVER['']" method="post" enctype="multipart/form-data">
             <input type="file" name="file" required>
             <button type="submit" name="send">Upload</button>
         </form>
