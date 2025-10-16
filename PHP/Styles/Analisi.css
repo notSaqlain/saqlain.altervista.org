@@ -1,0 +1,83 @@
+body {
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 60%;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+h1 {
+    text-align: center;
+    color: #00ffff;
+    letter-spacing: 1px;
+}
+
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 80%;
+    height: 120px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    resize: none;
+    outline: none;
+}
+
+input[type="submit"] {
+    background: #00bcd4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    background: #0097a7;
+}
+
+.risultati {
+    margin-top: 40px;
+    background: rgba(0, 188, 212, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.risultati h2, .risultati h3 {
+    color: #00ffff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: rgba(255, 255, 255, 0.1);
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 6px;
+}

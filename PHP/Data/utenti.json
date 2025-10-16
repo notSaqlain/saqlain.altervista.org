@@ -1,0 +1,12 @@
+{
+    "utenti": [
+        {
+            "username" : "root",
+            "password" : "root"
+        },
+        {
+            "username" : "batt",
+            "password" : "batt"
+        }
+    ]
+}
